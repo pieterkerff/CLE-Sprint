@@ -6,28 +6,65 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+
+nav {
+    background-color: #2f404d;
+}
+
+.head-container {
+    background-color: #b0acb0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+p {
+    margin: 0 20px;
+    padding: 10px;
+}
+
 section {
     padding: 10px 0px 10px;
 }
 
 .begin {
+    background-image: url(../images/wood-background.jpg);
     background-color: rgb(236, 236, 49);
     border-left: 20px solid gold;
 }
 
 .midden {
+    background-image: url(../images/process-background.jpg);
     background-color: silver;
     border-right: 20px solid rgb(150, 150, 150);
     text-align: right;
 }
 
 .eind {
+    background-image: url(../images/future-background.avif);
     background-color: brown;
     border-left: 20px solid rgb(140, 37, 37);
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
 img {
     background-color: white;
+    width: 200px;
+}
+
+.logo {}
+
+.process-pics {
     width: 200px;
     border: 1px solid black;
     border-radius: 50%;
