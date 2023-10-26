@@ -16,6 +16,7 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
 }
 
 h1 {
@@ -23,32 +24,30 @@ h1 {
     padding: 10px 0;
 }
 
-p {
+p,h2 {
     margin: 0 20px;
     padding: 10px;
 }
 
 section {
     padding: 10px 0px 10px;
+    color: #ffffff;
 }
 
 .begin {
     background-image: url(../images/wood-background.jpg);
     background-color: rgb(236, 236, 49);
-    border-left: 20px solid gold;
 }
 
 .midden {
     background-image: url(../images/process-background.jpg);
     background-color: silver;
-    border-right: 20px solid rgb(150, 150, 150);
     text-align: right;
 }
 
 .eind {
     background-image: url(../images/future-background.avif);
     background-color: brown;
-    border-left: 20px solid rgb(140, 37, 37);
 }
 
 .logo-container {
