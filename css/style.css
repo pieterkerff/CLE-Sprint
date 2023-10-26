@@ -113,6 +113,9 @@ img {
     padding: 5px 10px;
     border-radius: 1vw;
     border: 2px solid black;
+    display: block;
+    text-align: center;
+    position: relative;
 }
 
 .feature-cards article:hover {
