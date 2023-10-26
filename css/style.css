@@ -37,18 +37,15 @@ section {
 
 .begin {
     background-image: url(../images/wood-background.jpg);
-    background-color: rgb(236, 236, 49);
 }
 
 .midden {
     background-image: url(../images/process-background.jpg);
-    background-color: silver;
     text-align: right;
 }
 
 .eind {
     background-image: url(../images/future-background.avif);
-    background-color: brown;
 }
 
 .logo-container {
