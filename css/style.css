@@ -11,6 +11,8 @@ nav {
     background-color: #2f404d;
 }
 
+header {}
+
 .head-container {
     background-color: #b0acb0;
     display: flex;
@@ -37,15 +39,22 @@ section {
 
 .begin {
     background-image: url(../images/wood-background.jpg);
+    background-position: center;
+    background-size: cover;
+
 }
 
 .midden {
     background-image: url(../images/process-background.jpg);
+    background-position: center;
+    background-size: cover;
     text-align: right;
 }
 
 .eind {
     background-image: url(../images/future-background.avif);
+    background-position: center;
+    background-size: cover;
 }
 
 .logo-container {
@@ -79,6 +88,7 @@ img {
 .feature-cards {
     display: flex;
     gap: 30px;
+
 }
 
 .feature-cards article {
@@ -91,43 +101,33 @@ img {
     border: 2px solid black;
     justify-content: space-between;
     max-width: fit-content;
-    background-color: #3d898d
+    background-color: #3d898d;
+
 }
 
 .feature-cards article img {
     width: 100%;
-    height: 150px;
+    height: 160px;
     object-fit: cover;
     object-position: center;
     border-radius: 1vw;
-    border: 1px solid black;
-}
-
-.feature-cards article a {
-    text-decoration: none;
-    color: black;
-    background-color: #e2dddf;
-    padding: 5px 10px;
-    border-radius: 1vw;
     border: 2px solid black;
 }
+
 
 .feature-cards article:hover {
     transform: scale(1.05);
     transition: 0.5s;
 }
 
-.feature-cards article a:hover {
-    transition: 0.3s;
-    color: #e2dddf;
-    border: 2px solid #e2dddf;
-    background-color: #2f404d;
-}
 
 .interactive-map {
     padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    color: black;
     background-color: #85ebd9;
     border-bottom: 2px solid black;
 }
