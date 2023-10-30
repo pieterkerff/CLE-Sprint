@@ -22,6 +22,14 @@ header {
     background-size: cover;
 }
 
+.header-textbox {
+    text-align: center;
+    width: 400px;
+    background-color: #2f404d;
+    border-radius: 10px;
+    color: white;
+}
+
 
 h1 {
     margin: 0;
@@ -41,18 +49,21 @@ section {
 
 .begin {
     background-image: url(../images/wood-background.jpg);
-    background-color: rgb(236, 236, 49);
+    background-position: center;
+    background-size: cover;
 }
 
 .midden {
     background-image: url(../images/process-background.jpg);
-    background-color: silver;
+    background-position: center;
+    background-size: cover;
     text-align: right;
 }
 
 .eind {
     background-image: url(../images/future-background.avif);
-    background-color: brown;
+    background-position: center;
+    background-size: cover;
 }
 
 .logo-container {
@@ -66,7 +77,6 @@ img {
     width: 200px;
 }
 
-.logo {}
 
 .process-pics {
     width: 200px;
@@ -81,6 +91,10 @@ img {
     background-color: #b0acb0;
     border-bottom: 2px solid black;
     padding-bottom: 60px;
+}
+
+.features h2 {
+    font-size: 2rem;
 }
 
 .feature-cards {
@@ -137,6 +151,8 @@ img {
 .interactive-map {
     padding: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: #85ebd9;
     border-bottom: 2px solid black;
