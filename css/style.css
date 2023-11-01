@@ -26,10 +26,20 @@ header {
     text-align: center;
     width: 400px;
     background-color: #2f404d;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
 }
 
+.begin {
+    align-items: center;
+}
+
+.textbox {
+    width: 900px;
+    background-color: #2f404d;
+    border-radius: 10px;
+    color: white;
+}
 
 h1 {
     margin: 0;
