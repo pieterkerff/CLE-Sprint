@@ -47,7 +47,8 @@ h1 {
 }
 
 p,
-h2 {
+h2,
+a {
     margin: 0 20px;
     padding: 10px;
 }
@@ -74,6 +75,11 @@ section {
     background-image: url(../images/future-background.avif);
     background-position: center;
     background-size: cover;
+}
+
+.handleiding {
+    background-color: #b0acb0;
+    color: #000000;
 }
 
 .logo-container {
